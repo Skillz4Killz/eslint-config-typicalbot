@@ -1,9 +1,5 @@
 {
     "name": "eslint-config-typicalbot",
-    "author": {
-        "name": "Tyler Richards",
-        "email": "hello@tjrgg.xyz"
-    },
     "engines": {
         "node": ">=8.0.0"
     },
