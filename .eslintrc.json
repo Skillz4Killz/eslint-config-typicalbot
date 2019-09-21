@@ -1,6 +1,7 @@
 {
-    "extends": "airbnb-base",
     "parser": "babel-eslint",
+    "extends": ["airbnb-base", "prettier"],
+    "plugins": ["import"],
     "rules": {
         "no-prototype-builtins": "off",
         "indent": [
