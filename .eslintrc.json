@@ -23,6 +23,7 @@
             "error",
             "single"
         ],
-        "@typescript-eslint/explicit-function-return-type": "off"
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "prettier/prettier": "error"
     }
 }
