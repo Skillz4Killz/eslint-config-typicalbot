@@ -1,21 +1,26 @@
 {
     "name": "eslint-config-typicalbot",
     "engines": {
-        "node": ">=8.0.0"
+        "node": ">=10.0.0"
     },
     "main": "index.js",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/typicalbot/typicalbot-eslint"
     },
+    "publishConfig": { 
+        "registry": "https://npm.pkg.github.com/" 
+    },
     "dependencies": {
-        "babel-eslint": "^10.0.0",
+        "@types/node": "^12.7.7",
+        "@typescript-eslint/eslint-plugin": "^2.3.1",
+        "@typescript-eslint/parser": "^2.3.1",
         "eslint": "^6.4.0",
-        "eslint-config-airbnb-base": "^14.0.0",
         "eslint-config-prettier": "^6.3.0",
-        "eslint-plugin-import": "^2.18.2",
-        "prettier": "^1.18.2"
+        "eslint-plugin-prettier": "^3.1.1",
+        "prettier": "^1.18.2",
+        "typescript": "^3.6.3"
     }
 }
