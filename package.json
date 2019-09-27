@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config-typicalbot",
+    "name": "@typicalbot/eslint-config-typicalbot",
     "engines": {
         "node": ">=10.0.0"
     },
@@ -10,8 +10,8 @@
         "type": "git",
         "url": "https://github.com/typicalbot/typicalbot-eslint"
     },
-    "publishConfig": { 
-        "registry": "https://npm.pkg.github.com/" 
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
     },
     "dependencies": {
         "@types/node": "^12.7.7",
